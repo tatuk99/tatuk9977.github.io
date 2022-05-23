@@ -104,6 +104,7 @@ function buildCharts(sample) {
         xanchor: 'center',
         y: -0.25,
         yanchor: 'center',
+        text: "Top ten bacteria found in belly button (and amount)",
         showarrow: false
       }]
     };
@@ -185,6 +186,7 @@ function buildCharts(sample) {
         xanchor: 'center',
         y: 0,
         yanchor: 'center',
+        text: "Weekly belly button washing frequency".
         showarrow: false
       }]
     };
