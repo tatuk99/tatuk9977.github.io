@@ -74,7 +74,6 @@ function buildCharts(sample) {
     var sampleValues = firstSample.sample_values;
     console.log(otuIds);
     console.log(otuLabels);
-    //console.log("hello");
     console.log(sampleValues);
 
     // 7. Create the yticks for the bar chart.
@@ -105,11 +104,9 @@ function buildCharts(sample) {
         xanchor: 'center',
         y: -0.25,
         yanchor: 'center',
-        text: 'The bar chart displays the top 10 bacterial species (OTUs)<br>with the number of samples found in your belly button',
         showarrow: false
       }]
     };
-    //console.log("hello");
     // 10. Use Plotly to plot the data with the layout. 
     Plotly.newPlot("bar", barData, barLayout, {responsive: true});
 
@@ -138,7 +135,6 @@ function buildCharts(sample) {
       showlegend: false,
       xaxis: {title: "OTU ID", automargin: true},
       yaxis: {automargin: true},
-      //margin: { t: 50, r: 50, l: 50, b: 50 },
       hovermode: "closest"
     };
     console.log(bubbleLayout);
@@ -189,7 +185,6 @@ function buildCharts(sample) {
         xanchor: 'center',
         y: 0,
         yanchor: 'center',
-        text: "The gauge displays your belly button weekly washing frequency",
         showarrow: false
       }]
     };
