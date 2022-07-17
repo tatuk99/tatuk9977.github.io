@@ -186,7 +186,7 @@ function buildCharts(sample) {
         xanchor: 'center',
         y: 0,
         yanchor: 'center',
-        text: "Weekly belly button washing frequency".
+        text: "Weekly belly button washing frequency",
         showarrow: false
       }]
     };
